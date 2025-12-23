@@ -2,17 +2,13 @@
   "name": "major-project",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "engines": {
     "node": "22.29.0"
   },
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
-  "keywords": [],
-  "author": "",
   "license": "ISC",
   "dependencies": {
     "cloudinary": "1.41.3",
@@ -21,7 +17,7 @@
     "dotenv": "^17.2.3",
     "ejs": "^3.1.10",
     "ejs-mate": "^4.0.0",
-    "express": "^5.1.0",
+    "express": "^4.19.2",
     "express-async-wrap": "^1.0.0",
     "express-session": "^1.18.2",
     "joi": "^18.0.2",
